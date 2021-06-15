@@ -1,0 +1,354 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 300px;
+    width: 300px;
+    background-color: #5c5f5f;
+    border: grey solid 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin:auto;
+    margin-top:5px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100px;
+    width: 100px;
+    background-color: #5c5f5f;
+    padding: 5px;
+    border: 10px solid grey;
+    border-radius: 30px;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto;
+    height: 80px;
+    width: 80px;
+    background-color: #8be0d5;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+    float:right;
+    border: 15px solid rgba(252, 167, 213, 1);
+}
+.grid-container-4 {
+    display: grid;
+    grid-template-columns: auto;
+    height: 80px;
+    width: 80px;
+    background-color: #8be0d5;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+    float:left;
+    border: 15px solid rgba(252, 167, 213, 1);
+}
+#timer{
+    display: grid;
+    grid-template-columns: auto;
+    height: 40px;
+    width: 80px;
+    background-color: #8be0d5;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+    border: 5px solid rgba(252, 167, 213, 1);
+}
+
+.griditem {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 1px 2px #fff,
+}
+.griditem:hover{
+    box-shadow: inset 0px 0px 0px 50px rgba(99, 99, 99, 0.25);
+}
+
+.grid-item1 {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#g1-1 {
+    background-color: blue;
+}
+
+#g1-2 {
+    background-color: purple;
+}
+
+#g1-3 {
+    background-color: red;
+}
+
+#g1-4 {
+    background-color: orange;
+}
+
+#g1-5 {
+    background-color: green;
+}
+
+#g1-6 {
+    background-color: yellow;
+}
+
+#g1-7 {
+    background-color: blue;
+   
+}
+
+#g1-8 {
+    background-color: purple;
+}
+
+#g1-9 {
+    background-color: red;
+}
+#g2-7{
+    border: solid black 5px;
+}
+#g2-8{
+    border: solid black 5px;
+}
+#g2-9{
+    border: solid black 5px;
+}
+#g2-12{
+    border: solid black 5px;
+}
+#g2-13{
+    border: solid black 5px;
+}
+#g2-14{
+    border: solid black 5px;
+}
+#g2-17{
+    border: solid black 5px;
+}
+#g2-18{
+    border: solid black 5px;
+}
+#g2-19{
+    border: solid black 5px;
+}
+.g2-1 {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.g2-2 {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.g2-3 {
+    background-color: red;
+    cursor: pointer;
+}
+
+.g2-4 {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.g2-5 {
+    background-color: green;
+    cursor: pointer;
+}
+
+.g2-6 {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.g2-7 {
+    background-color: blue;
+    cursor: pointer;
+    
+}
+
+.g2-8 {
+    background-color: purple;
+    cursor: pointer;
+  
+
+}
+
+.g2-9 {
+    background-color: red;
+    cursor: pointer;
+   
+
+}
+
+.g2-10 {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.g2-11 {
+    background-color: green;
+    cursor: pointer;
+}
+
+.g2-12 {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.g2-13 {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.g2-14 {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.g2-15 {
+    background-color: red;
+    cursor: pointer;
+}
+
+.g2-16 {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.g2-17 {
+    background-color: green;
+    cursor: pointer;
+}
+
+.g2-18 {
+    background-color: yellow;
+    cursor: pointer;
+    
+
+}
+
+.g2-19 {
+    background-color: blue;
+    cursor: pointer;
+    
+
+}
+
+.g2-20 {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.g2-21 {
+    background-color: red;
+    cursor: pointer;
+}
+
+.g2-22 {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.g2-23 {
+    background-color: green;
+    cursor: pointer;
+}
+
+.g2-24 {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+    color: rgb(155, 9, 240);
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0px;
+    margin-top:5px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lucida Sans';
+    color: rgb(141, 92, 196);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: auto;
+    text-align:right;
+    margin-right:20px;
+}
+h3 {
+    font-family: 'Lucida Sans';
+    color: rgb(141, 92, 196);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: auto;
+    text-align:left;
+    margin-right:20px;
+}
+
+
+
+/*div {
+padding: 10px;
+font-family: serif;
+font-size: medium;
+border: 5px solid white;
+height: 10px;
+width: 10px;
+/*background-color: thistle;
+}*/
+
+.button {
+    background-color: #c03491;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    float: right;
+}
+.button_2 {
+    background-color: #c03491;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+body {
+    background: black;
+    border: #666 20px;
+}
+
+.g2-25 {
+    background-color: #5c5f5f;
+}
